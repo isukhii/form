@@ -1,0 +1,78 @@
+
+.container {
+    width: 30em;
+    margin: 3.75em auto;
+    
+}
+.form-container {
+    background-color:#f2f2f2;
+   
+    overflow: hidden;
+}
+.progress {
+    
+   
+}
+.progress-bar {
+    background-color: #e3193a;
+  
+}
+.form-title {
+    font-size: 1.6em;
+    font-weight: 500;
+    text-align: center;
+    padding: 1.25em 1.25em .625em;
+}
+.form-subtitle {
+    font-size: 1em;
+    text-align: center;
+}
+.form-body {
+    padding: 1.25em;
+    min-height: 15em;
+}
+textarea {
+    font-size: 1.2em;
+    width: 100%;
+    height: 10em;
+    resize: none;
+    
+    background-color: white;
+
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.form-controls {
+    padding: 1.25em;
+    background-color: red;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+button[disabled] {
+    opacity: .4;
+}
+button {
+    border: 0;
+    padding: .625em 1.25em;
+    font-family: inherit;
+    font-size: 1em;
+    outline-color: #fff8dc;
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+}
+.form-hint {
+    font-size: .8em;
+    margin-top: .5em;
+    color: gray;
+}
